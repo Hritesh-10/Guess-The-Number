@@ -1,0 +1,26 @@
+1) touch .gitignore # type the name in here which file you should ignore
+
+2) git config --global user.name "Hritesh"
+
+3) git config --global user.email "hsworkmail.1@gmail.com"
+
+4) git init # it will add a hidden folder named git (innitialize git)
+
+5) git add . # all the files excluding gitignore is added to staging area.
+
+6) git commit -m "Initial commit" # to create commit
+
+7) git status # just to see if the working tree is clean (not compulsary)
+
+8) if SSH key is not set for the computer you want to use to push, then create and     add the ssh key
+   by using this link: ssh-keygen -t ed25519 -C "hsworkmail.1@gmail.com"
+
+9) Then add the SSH key to your github
+
+10) git push origine master # to push your project in the github repository.
+
+
+
+
+
+
